@@ -6,6 +6,7 @@
 /* Layout */
 html, body, #home {
     height: 100%;
+    overflow-x: hidden;
 }
 
 body {
@@ -80,8 +81,28 @@ nav.navbar-transparente {
     color: #7c25f8;
 }
 
+#recursos {
+    padding: 20px 0;
+    color: white;
+}
+
+#recursos h2 {
+    color: white;
+}
+
+#recursos h3 {
+    color: #9bf0e1;
+}
+
 .albuns {
     padding: 10px 0;
+}
+
+.rotacionar {
+    transform: rotate(30deg);
+    -ms-transform: rotate(30deg);
+    -webkit-transform: rotate(30deg);
+    padding-left: 80px;
 }
 
 /* Tipografia */
@@ -118,6 +139,11 @@ h3 {
     .btn-custom {
         margin: 5px 15px;
     }
+
+    .rotacionar {
+        margin-top: 70px;
+        padding-left: 0;
+    }
 }
 
 /* Small devices (landscape phones, 576px and up) */
@@ -132,6 +158,11 @@ h3 {
 
     .btn-custom {
         margin: 7px 15px;
+    }
+    
+    .rotacionar {
+        margin-top: 70px;
+        padding-left: 0;
     }
 }
 
