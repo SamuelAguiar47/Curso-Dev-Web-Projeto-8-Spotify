@@ -71,6 +71,10 @@ nav.navbar-transparente {
     border: 2px solid white;
 }
 
+.carousel-control-prev, .carousel-control-next {
+    width: 5%;
+}
+
 /* Estrutura conteúdos */
 #servicos {
     background: white;
